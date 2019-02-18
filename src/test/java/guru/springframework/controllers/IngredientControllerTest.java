@@ -137,9 +137,9 @@ public class IngredientControllerTest {
 
     }
 
-  /*  @Test
+    @Test
     public void testDeleteIngredient() throws Exception {
-
+        when(ingredientService.deleteById(anyString(), anyString())).thenReturn(Mono.empty());
         //then
         mockMvc.perform(get("/recipe/2/ingredient/3/delete")
         )
@@ -148,5 +148,5 @@ public class IngredientControllerTest {
 
         verify(ingredientService, times(1)).deleteById(anyString(), anyString());
 
-    }*/
+    }
 }
