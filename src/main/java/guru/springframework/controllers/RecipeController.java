@@ -12,8 +12,6 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
 
-import javax.validation.Valid;
-
 /**
  * Created by jt on 6/19/17.
  */
